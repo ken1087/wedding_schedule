@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>일정</title>
+    <style>
+        * {
+            box-sizing: 0;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
     <main>
         <div>
-            <table border="1" cellspacing="0">
+            <h1>좌석표</h1>
+            <table border="1" cellspacing="0" style="width: 100%;">
                 <thead>
                     <tr style="background-color: aqua; text-align: center; font-weight: bold;">
                         <td>시간</td>
@@ -20,6 +28,13 @@
                 </thead>
                 <tbody class="tbody"></tbody>
             </table>
+        </div>
+        <br>
+        <br>
+        <hr/>
+        <div>
+            <h1>좌석표</h1>
+            <img src="/img/seatingChart.png" />
         </div>
     </main>
     <script src="./main.js"></script>
